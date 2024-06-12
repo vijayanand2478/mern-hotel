@@ -1,0 +1,14 @@
+.footer{
+    width: 100%;
+    background-color: rgb(116, 96, 214);
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding: 50px 30px;
+}
+.footer-box{
+    color: rgb(255, 255, 255);
+    /* display: flex;
+    flex-direction: column; */
+    font-size: 15px;
+}

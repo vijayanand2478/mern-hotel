@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Jersey+15&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    font-family: "Heebo";
+}
+
+.home-nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgb(116, 96, 214);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight:200;
+    /* position: relative; */
+    box-shadow: rgba(86, 3, 240, 0.24) 0px 3px 8px;
+}
+.att{
+    display: flex;
+    justify-content: space-around;
+}
+.att a{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.logout{
+    height: 40px;
+    width: 80px; 
+    border: none;
+    cursor: pointer;
+    border-radius: 7px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: white;
+    color: rgb(83, 83, 214);
+    font-size: 18px;
+}
+.logout:hover{
+    background-color: rgba(255, 255, 255, 0.733);
+    color: rgb(83, 83, 214);
+   
+    transition: 0.5s;
+}
+.logout:active{
+    transform: scale(-0.02);
+}
+
+/* add hotels */
+.hotel-box{
+    background-color: white;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.hotel-box-form{
+    width: 50%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    padding: 10px;
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+}
+.hotel-box-form label{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 20px 0 0 0;
+    display: inline-block;
+}
+.hotel-box-form input{
+    height: 40px;
+    width: 500px;
+    padding: 10px 20px;
+    margin: 0 20px;
+    
+}
+.hotel-box-form button{
+    background-color: rgb(162, 100, 220);
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    margin: 10px;
+}
+.hotel-box-img{
+    background-image: url("https://images.pexels.com/photos/19517380/pexels-photo-19517380/free-photo-of-bank-hotel-istanbul.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    width: 30%;
+    height: 70vh;
+    background-position: center;
+    background-size: cover;
+    box-shadow: rgba(65, 105, 225, 0.4) -5px 5px, rgba(65, 105, 225, 0.3) -10px 10px, rgba(65, 105, 225, 0.2) -15px 15px, rgba(65, 105, 225, 0.1) -20px 20px, rgba(65, 105, 225, 0.05) -25px 25px;
+}
